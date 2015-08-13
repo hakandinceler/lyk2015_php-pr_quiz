@@ -1,3 +1,4 @@
+<?php
 function getAllQuestions($path = ""){
     $doWeHaveData = false;
     $questionsDataFilePath = $path. "data/questions.txt";
@@ -33,3 +34,4 @@ function getAllQuestions($path = ""){
     }
     return $questions;
 }
+?>
